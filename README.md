@@ -15,10 +15,10 @@
 *Game engine: A game engine was used to simplify the development process by providing a framework for graphics, sound, and input handling.
 *Art assets: The game needed art assets, such as cards, tables, and dealers. These assets was downloaded  from a third-party asset store.
 
-### Limitation
-#### Regulation: The game may also be subject to regulation by gambling authorities. This can restrict the features and gameplay of this game.
+## Limitation
+## Regulation: The game may also be subject to regulation by gambling authorities. This can restrict the features and gameplay of this game.
 
-### Licencing
+## Licencing
 #### If the game is intended to be released commercially, I may need to obtain a license from a gambling authority.
 
 ## Author
