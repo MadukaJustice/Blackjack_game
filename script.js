@@ -73,6 +73,7 @@ function blackjackHit(){
     }
 }
 
+// create a random card whenever user clicks a button
 function randomCard(){
     let randomIndex = Math.floor(Math.random() * 13);
     return blackjackGame["cards"][randomIndex];
@@ -88,6 +89,7 @@ function showCard(card, activePlayer){
     }
 }
 
+// positioning the game UI
 function widthSize() {
     if(windowWidth > 1000) {
         let newWidthSize = window.screen.width * 0.1;
@@ -106,6 +108,8 @@ function heightSize() {
      }
 }
 
+
+// create an updated score of the player
 function updateScore(card, activePlayer) {
     if (card === "A") {
         if (activePlayer["score"] + blackjackGame["cardsMap"][card][1] <= 21) {
@@ -152,6 +156,8 @@ function blackjackStand(){
     blackjackGame.pressOnce = true;
 }
 
+
+// Determining the winner
 function computeWinner()
 {
     if (You["score"] <= 21) {
@@ -181,6 +187,8 @@ function computeWinner()
     return winner;
 }
 
+
+// showing the winner
 function showWinner(){
     let message , messageColor;
 
@@ -250,6 +258,7 @@ function blackjackDeal(){
     }
 }
 
+// Create a restart function
 function blackjackRestart(){
 
     blackjackDeal();
